@@ -16,3 +16,7 @@ runs:
 branding:
   icon: 'grid'
   color: 'gray-dark'
+uses: snow-actions/qrcode@v1.0.0
+with:
+  text: 'https://github.com/snow-actions/qrcode'
+  path: 'qrcode.png'
